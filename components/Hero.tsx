@@ -27,8 +27,7 @@ import {
   SiJavascript,
 } from "react-icons/si";
 import { ReactNode } from "react";
-import MyPic from '../assets/portfolioImg.jpeg'
-
+import MyPic from "../assets/portfolioImg.jpeg";
 
 interface Skill {
   name: string;
@@ -148,13 +147,20 @@ const Hero = () => {
             >
               Contact Me
             </a>
-            <button
+            {/* <button
               onClick={() => {
                 const link = document.createElement("a");
                 link.href = "/SusanthSankarCV.pdf";
                 link.download = "SusanthSankarCV.pdf";
                 link.click();
               }}
+              className="px-6 py-3 bg-cyan-900/20 rounded-full border border-cyan-700/30 text-cyan-300 font-medium transition-all duration-300 transform hover:-translate-y-1 text-center flex items-center justify-center gap-2 cursor-pointer"
+            >
+              Download CV
+            </button> */}
+
+            <button
+              onClick={() => window.open("/api/download-cv", "_blank")}
               className="px-6 py-3 bg-cyan-900/20 rounded-full border border-cyan-700/30 text-cyan-300 font-medium transition-all duration-300 transform hover:-translate-y-1 text-center flex items-center justify-center gap-2 cursor-pointer"
             >
               Download CV
