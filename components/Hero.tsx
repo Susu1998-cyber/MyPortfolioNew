@@ -36,8 +36,7 @@ interface Skill {
 const Hero = (): JSX.Element => {
     const [displayText, setDisplayText] = useState<string>("");
     const [currentIndex, setCurrentIndex] = useState<number>(0);
-    const [showCertificate, setShowCertificate] = useState<boolean>(false);
-
+ 
     const fullText =
         "I am SusanthSankar with 2+ Years of Experience building software applications.";
 

@@ -21,7 +21,7 @@ const Header: React.FC = () => {
                         />
                     </div>
                     <a href="#" className="text-white font-bold text-2xl tracking-tight">
-                        Susanth's Portfolio
+                        Susanth&apos;s Portfolio
                     </a>
                 </div>
 
@@ -92,7 +92,7 @@ const Header: React.FC = () => {
                             />
                         </div>
                         <p className="text-white text-sm font-medium text-center">
-                            Susanth's Portfolio
+                            Susanth&apos;s Portfolio
                         </p>
                         <p className="text-purple-300 text-xs mt-1 text-center">
                             Creative Developer & Designer
