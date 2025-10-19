@@ -90,7 +90,7 @@ const Contact = () => {
       <div className="relative z-10 max-w-4xl w-full mx-auto text-center">
         <div className="mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-     <h1>Let&apos;s connect!</h1>
+ Let&apos;s connect! 
           </h1>
         </div>
 
