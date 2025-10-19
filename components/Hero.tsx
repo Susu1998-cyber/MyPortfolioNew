@@ -27,6 +27,8 @@ import {
   SiJavascript,
 } from "react-icons/si";
 import { ReactNode } from "react";
+import MyPic from '../assets/portfolioImg.jpeg'
+
 
 interface Skill {
   name: string;
@@ -175,7 +177,7 @@ const Hero = () => {
             <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center p-1">
               <div className="w-full h-full bg-gray-800 rounded-full overflow-hidden border-4 border-gray-900">
                 <Image
-                  src="/portfolioImg.jpeg"
+                  src={MyPic}
                   alt="SusanthSankar"
                   width={300}
                   height={200}

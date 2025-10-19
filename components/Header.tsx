@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
+import MyheaderPic from '../assets/favicon.png'
 
 const Header: React.FC = () => {
     const [open, setOpen] = useState<boolean>(false);
@@ -13,7 +14,7 @@ const Header: React.FC = () => {
                 <div className="flex items-center space-x-4">
                     <div className="relative w-16 h-16 rounded-full bg-gradient-to-br from-gray-800 to-gray-900 p-2 shadow-[4px_4px_6px_rgba(0,0,0,0.4),-4px_-4px_6px_rgba(255,255,255,0.05)] ring-1 ring-white/5">
                         <Image
-                            src="/favicon.png"
+                            src={MyheaderPic}
                             alt="Susanth's logo"
                             fill
                             className="object-contain p-1.2 brightness-110 contrast-125"
@@ -85,7 +86,7 @@ const Header: React.FC = () => {
                     <div className="p-6 border-t border-purple-700 flex flex-col items-center justify-center">
                         <div className="relative w-20 h-20 rounded-full bg-gradient-to-br from-gray-800 to-gray-900 p-2 shadow-[4px_4px_6px_rgba(0,0,0,0.4),-4px_-4px_6px_rgba(255,255,255,0.05)] ring-1 ring-white/5 mb-3">
                             <Image
-                                src="/favicon.png"
+                                src={MyheaderPic}
                                 alt="Susanth's logo"
                                 fill
                                 className="object-contain p-1.2 brightness-110 contrast-125"
