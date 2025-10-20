@@ -161,7 +161,7 @@ const Contact = () => {
             <div className="relative">
               <textarea
                 name="message"
-                placeholder="Your message... (minimum 50 characters)"
+                placeholder="Your message... (minimum 30 characters)"
                 value={form.message}
                 onChange={handleChange}
                 required
