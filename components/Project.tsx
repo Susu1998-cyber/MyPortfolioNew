@@ -1,5 +1,6 @@
 import Image from "next/image";
 import UserMgmntImg from "../assets/usermgmntimg.png";
+import BlogImg from "../assets/blog.png";
 
 const Projects = () => {
   return (
@@ -24,6 +25,12 @@ const Projects = () => {
               src: UserMgmntImg,
               alt: "User Managment System",
               title: "User Managment System",
+            },
+            {
+              href: "https://next-blog-liart-alpha.vercel.app/login",
+              src: BlogImg,
+              alt: "Blog Application",
+              title: "Nexora  Blog Application",
             },
           ].map((project, index) => (
             <a
