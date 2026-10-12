@@ -1,6 +1,7 @@
 import Image from "next/image";
 import UserMgmntImg from "../assets/usermgmntimg.png";
 import BlogImg from "../assets/blog.png";
+import MegaMart from "../assets/megamart.png"
 
 const Projects = () => {
   return (
@@ -31,6 +32,12 @@ const Projects = () => {
               src: BlogImg,
               alt: "Blog Application",
               title: "Nexora  Blog Application",
+            },
+              {
+              href: "https://mega-mart-store.vercel.app/",
+              src: MegaMart,
+              alt: "Cart Application",
+              title: "MegaMart Cart Application",
             },
           ].map((project, index) => (
             <a
